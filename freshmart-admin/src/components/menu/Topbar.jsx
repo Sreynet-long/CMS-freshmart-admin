@@ -10,8 +10,8 @@ const handleClose = () => setAnchorEl(null)
 
 
 return (
-<AppBar position="static" color="transparent" elevation={0} sx={{ mb: 2 }}>
-    <Toolbar>
+<AppBar position="static" color="success" elevation={0} sx={{ mb: 2 }}>
+    <Toolbar >
     <Typography variant="h6" sx={{ flex: 1 }}>Freshmart Admin</Typography>
         <Box>
             <IconButton onClick={handleOpen} size="small">

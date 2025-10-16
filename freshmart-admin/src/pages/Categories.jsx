@@ -23,7 +23,7 @@ fetchCategories()
 
 
 return (
-<Paper sx={{ p: 2 }}>
+<Paper sx={{ p: 6 , maxWidth: 600, margin: '20px auto' }}>
     <Box sx={{ display: 'flex', gap: 1, mb: 2 }}>
         <TextField label="New category" value={name} onChange={e => setName(e.target.value)} />
         <Button onClick={handleAdd} variant="contained">Add</Button>
